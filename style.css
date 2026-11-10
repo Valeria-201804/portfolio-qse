@@ -139,6 +139,18 @@ body {
     transition: var(--transition);
 }
 
+/* Bouton Spécifique Consulter le CV */
+.btn-cv {
+    background-color: var(--secondary);
+    color: #FFFFFF;
+}
+
+.btn-cv:hover {
+    background-color: var(--secondary-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(24, 48, 89, 0.2);
+}
+
 .btn-primary {
     background-color: var(--primary);
     color: #FFFFFF;
@@ -150,12 +162,14 @@ body {
 }
 
 .btn-secondary {
-    background-color: var(--secondary);
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: var(--secondary);
+    border: 1px solid var(--border);
 }
 
 .btn-secondary:hover {
-    background-color: var(--secondary-hover);
+    background-color: #F2F5F3;
+    border-color: var(--secondary);
     transform: translateY(-2px);
 }
 
